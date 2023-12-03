@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/svg+xml" href="/assets/user-switch.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&family=Poppins:wght@400;500;700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Cadastro de Usuario</title>
+  </head>
+  <body>
+    <div class="neon">
+      <div class="container">
+        <section class="header">
+          <h2>Novo Usuario</h2>
+        </section>
+
+        <form id="form" class="form">
+          <div class="form-content">
+            <label for="username"> nome de Usuario</label>
+            <input
+              type="text"
+              id="username"
+              placeholder="digite o nome de Usuario"
+            />
+            <a> aqui vai a mensagem de erro....</a>
+          </div>
+          <div class="form-content">
+            <label for="email">email</label>
+            <input type="email" id="email" placeholder="digite seu email" />
+            <a> aqui vai a mensagem de erro....</a>
+          </div>
+          <div class="form-content">
+            <label for="password"> senha</label>
+            <input
+              type="password"
+              id="password"
+              placeholder="digite uma senha"
+            />
+            <a> aqui vai a mensagem de erro....</a>
+          </div>
+          <div class="form-content">
+            <label for="password-confirmation">
+              digite a senha novamente...</label
+            >
+            <input
+              type="password"
+              id="password-confirmation"
+              placeholder="digite a senha novamente"
+            />
+            <a> aqui vai a mensagem de erro....</a>
+          </div>
+          <button type="submit">Cadastra</button>
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
